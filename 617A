@@ -1,0 +1,13 @@
+import math
+n = int(input())
+if n >= 5:
+    print(math.ceil(n/5))
+elif n >= 4:
+    print(math.ceil(n/4))   
+elif n >= 3:
+    print(math.ceil(n/3)) 
+elif n >= 2:
+    print(math.ceil(n/2)) 
+else:
+    print(1)           
+    
