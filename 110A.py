@@ -2,12 +2,12 @@ n = input()
 
 count = 0
 
-# step 1: count lucky digits
+
 for i in n:
     if i == '4' or i == '7':
         count += 1
 
-# step 2: check if count is lucky
+
 if count == 4 or count == 7:
     print("YES")
 else:
